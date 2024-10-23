@@ -1,0 +1,14 @@
+PackageIdentifier: MyCompany.MyApp
+PackageVersion: 1.0.1
+PackageLocale: en-US
+Publisher: Microsoft
+PackageName: WingetSample
+License: MIT
+ShortDescription: Winget Sample app.
+Installers: 
+ - Architecture: x64
+   InstallerType: exe
+   InstallerUrl: https://github.com/winget2024/WingetDemo/releases/download/v1.0.1/WingetSample.exe
+   InstallerSha256: D20A5905D02F0B967F96E6877AFB9468EC4F7DB854BAA60756CEBB5945C7D648
+ManifestType: singleton
+ManifestVersion: 1.6.0
